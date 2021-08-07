@@ -32,9 +32,9 @@ function get_excuse(){
 
 
     
-    let frase=palabra+" "+palabra1+" "+palabra2+" "+palabra3
+    let frase1=palabra1+" "+palabra2+" "+palabra3+" "+palabra4
 
-    console.log(frase);
+    console.log(frase1);
 
 
     document.querySelector(".frase1").innerHTML=frase1;
