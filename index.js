@@ -8,31 +8,31 @@ function get_excuse(){
    
 
 
-    numero1=Math.floor(Math.random()*who.length)
-    let palabra1=who[numero1];
+    numero=Math.floor(Math.random()*who.length)
+    let palabra=who[numero];
     
 
 
-    numero2=Math.floor(Math.random()*action.length)
-    let palabra2=action[numero2];
-    
-
-
-
-    numero3=Math.floor(Math.random()*what.length)
-    let palabra3=what[numero3];
+    numero1=Math.floor(Math.random()*action.length)
+    let palabra1=action[numero1];
     
 
 
 
+    numero2=Math.floor(Math.random()*what.length)
+    let palabra2=what[numero2];
     
-    numero4=Math.floor(Math.random()*when.length)
-    let palabra4=when[numero4];
+
+
+
+    
+    numero3=Math.floor(Math.random()*when.length)
+    let palabra3=when[numero3];
     
 
 
     
-    let frase1=palabra1+" "+palabra2+" "+palabra3+" "+palabra4
+    let frase1=palabra+" "+palabra1+" "+palabra2+" "+palabra3
 
     console.log(frase1);
 
