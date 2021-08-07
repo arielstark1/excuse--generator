@@ -32,7 +32,7 @@ function get_excuse(){
 
 
     
-    let frase1=palabra+" "+palabra1+" "+palabra2+" "+palabra3
+    let frase=palabra+" "+palabra1+" "+palabra2+" "+palabra3
 
     console.log(frase1);
 
