@@ -37,7 +37,7 @@ function get_excuse(){
     console.log(frase1);
 
 
-    document.querySelector(".frase1").innerHTML=frase1;
+    document.querySelector(".frase").innerHTML=frase1;
 
 }
 get_excuse()
